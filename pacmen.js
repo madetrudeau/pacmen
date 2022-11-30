@@ -34,7 +34,7 @@ function makePac() {
     let game = document.getElementById('game');
     let newimg = document.createElement('img');
     newimg.style.position = 'absolute';
-    newimg.src = 'PacMan1.png';
+    newimg.src = 'img/Pacman1.png';
     newimg.width = 100;
     newimg.style.left = position.x + 'px';
     console.log('New image left details: ' + newimg.style.left);
