@@ -69,7 +69,7 @@ function update() {
 }
 
 function checkCollisions(item) {
-    if (item.position.x + item.newimg.width > projBox.width || 
+    if (item.position.x + item.velocity.x + item.newimg.width > projBox.width || 
         item.position.x + item.velocity.x < projBox.x) {
             item.velocity.x = -item.velocity.x;
             item.newimg.width = item.newimg.width - 20;
